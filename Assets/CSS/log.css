@@ -1,0 +1,35 @@
+/*General*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    background :rgb(214, 255, 209)
+}
+/*Input TextBox User and Password*/
+input[type="text"], 
+input[type="password"],
+input[type="email"]{
+    outline: none;
+    padding: 10px;
+    display: block;
+    width: 250px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    margin:20px auto;
+}
+/* Input button Sends  */
+input[type="submit"]{
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    background: rgb(135, 123, 235);
+    margin: 20px auto;
+    width: 250px;
+    margin-top: 0px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="sumit"]{
+    background-color: indigo;
+}
